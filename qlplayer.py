@@ -18,7 +18,7 @@ class QLearnedPlayer(Player):
         
 		current_state = state
 
-		if random.random() < self.epsilon: # explore!
+		if random.random() < self.epsilon: 
 		    chosen_action = random.choice(actions)
 		    return chosen_action
 
